@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PROJECT-Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+  <h1>ROCK vs. PAPER vs. SCISSORS</h1>
+<div class="gameBoard">
+<div class="you">
+<h2>YOU</h2>
+<img id="youRock" onclick="go(this)" src="https://emiltigell.com/images/rock.png" />
+<img id="youPaper" onclick="go(this)" src="https://emiltigell.com/images/paper.png" />
+<img  id="youScissors" onclick="go(this)" src="https://emiltigell.com/images/scissors.png" />
+</div>
+<div class="computer">
+<h2>COMPUTER</h2>
+<img id="compRock" src="https://emiltigell.com/images/rock.png" />
+<img id="compPaper" src="https://emiltigell.com/images/paper.png" />
+<img id="compScissors" src="https://emiltigell.com/images/scissors.png" />
+</div>
+
+<div id="result">Make the first move!</div>
+<div id="score">You: 0 Computer: 0</div>
+  <div id="resetButton">Reset Game</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
